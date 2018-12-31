@@ -2,7 +2,7 @@
 Talk with me is a little chat app developed with electron
 
 ## Install (for development)
-This is installation only for DEVELOPERS, go in the release section if you just want to test it
+This is installation only for DEVELOPERS, go in the [release](https://github.com/edr-creation/talk-with-me/releases) section if you just want to download it
 ``` bash
 # Clone the repository
 git clone https://github.com/edr-creation/talk-with-me.git
