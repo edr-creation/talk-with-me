@@ -1,0 +1,27 @@
+.input-message {
+    border-radius: 0px;
+}
+
+#message-form {
+    display: flex;
+}
+
+#message-username {
+    width: 20%;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn-primary {
+    width: 5%;
+}
+
+.btn-bottom {
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+
+    font-size: 25px;
+}

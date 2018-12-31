@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Talk With Me</title>
+    <link rel="stylesheet" href="dist/photon/css/photon.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+    <div class="window">
+        <div class="toolbar toolbar-header">
+            <h1 class="title">Talk With Me</h1>
+        </div>
+
+        <div class="window-content">
+            <a href="#bottom"><span class="btn-bottom icon icon-down"></span></a>
+            <div id="messages">
+                <div id="sync-wrapper">
+                    <div id="sync-success">Currently syncing</div>
+                    <div id="sync-error">There was a problem syncing</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="toolbar toolbar-footer">
+            <form id="message-form">
+                <input type="text" id="message-username" class="form-control input-message" placeholder="username..." required="true">
+                <input type="text" id="message-content" class="form-control input-message" placeholder="Enter new message..." required="true">
+                <input type="submit" value="Send" class="btn btn-primary">
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/pouchdb@7.0.0/dist/pouchdb.min.js"></script>
+    <script src="renderer.js"></script>
+</body>
+</html>

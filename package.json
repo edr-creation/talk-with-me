@@ -1,0 +1,12 @@
+{
+  "name": "talk-with-me",
+  "version": "1.0.0",
+  "description": "Little chat app",
+  "main": "main.js",
+  "author": "Enzo Do rosario",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "electron": "^4.0.0"
+  }
+}
